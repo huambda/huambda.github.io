@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="huambda | 华华计算 - Focused on symbols, computation, emotions and beauty">
+    <meta name="keywords" content="huambda, 华华计算, symbols, computation, emotions, beauty, technology">
+    <meta name="author" content="huambda">
+    <title>huambda | 华华计算</title>
+    <link rel="icon" type="image/png" href="https://huambda.github.io/huambda_logo.ico">
+    <style>
+        :root {
+            --black: #1a1a1a;
+            --white: #fefefe;
+            --gray: #666;
+        }
+        .pronunciation {
+            font-size: 0.7rem;
+            color: var(--light-gray);
+            position: absolute;
+            right: -5.5rem;
+            bottom: 0.4rem;
+            white-space: nowrap;
+        }
+
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', sans-serif;
+            line-height: 1.6;
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            background: var(--white);
+            color: var(--black);
+        }
+
+        .header {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 4rem;
+        }
+
+        .logo-container {
+            position: relative;
+            margin-right: 3rem;
+            text-align: center;
+        }
+
+        .logo-label {
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            color: var(--gray);
+            margin-bottom: 0.8rem;
+            display: block;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            filter: grayscale(100%);
+            border: 1px solid var(--black);
+        }
+
+        .chinese-name {
+            margin: 0;
+            font-size: 1.4rem;
+            padding-left: 0.1rem;
+            //border-left: 1px solid var(--black);
+            height: 50px;
+            display: flex;
+            align-items: center;
+            color: var(--light-gray);
+        }
+
+        .interests {
+            margin-top: 3rem;
+        }
+
+        .interest-section {
+            margin-bottom: 3rem;
+        }
+
+        .interest-title {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.2rem;
+        }
+
+        .interest-content {
+            font-size: 1rem;
+            color: var(--gray);
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+            }
+            .chinese-name {
+                border-left: 0;
+                border-top: 1px solid var(--black);
+                padding: 2rem 0 0;
+                margin-top: 2rem;
+                height: auto;
+                width: 100%;
+            }
+            .logo-container {
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <span class="logo-label">huambda | 华华计算</span>
+            <span class="pronunciation">[ˈwɑːmdə]</span>
+
+            <img src="https://huambda.github.io/huambda_logo.png" alt="huambda logo" alt="logo" class="logo">
+        </div>
+    </header>
+    <div class="interests">
+        <div class="interest-section">
+            <div class="interest-content">
+                <p>I’m drawn to symbols and calculations, and I’m curious about emotions and beauty.</p>
+                <p>我喜欢符号、计算，对情绪与美感到好奇。</p>
+                <p><a href='https://github.com/huambda'>github.com/huambda</a></p>
+                <p>huambda@gmail.com</p>
+                <p><a href='https://mp.weixin.qq.com/s/6XsKmVdgqScG0d6qaZOvQA'>公众号</a>&nbsp&nbsp<a href='https://www.xiaohongshu.com/user/profile/66358086000000000b03026b'>小红书</a>&nbsp&nbsp<a href="https://x.com/huambda">x/twitter</a></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
