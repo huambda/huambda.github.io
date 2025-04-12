@@ -6,7 +6,7 @@
     <meta name="description" content="huambda | 华华计算 - Focused on symbols, computation, emotions and beauty">
     <meta name="keywords" content="huambda, 华华计算, symbols, computation, emotions, beauty, technology">
     <meta name="author" content="huambda">
-    <title>huambda | 华华计算</title>
+    <title>蚊帐：一种极佳的“分治法” - huambda | 华华计算</title>
     <link rel="icon" type="image/png" href="https://huambda.github.io/huambda_logo.ico">
     <style>
         :root {
@@ -15,15 +15,13 @@
             --gray: #666;
         }
         .pronunciation {
-            font-size: 0.7rem; 
-            //color: var(--light-gray);
+            font-size: 0.7rem;
             color: gray;
             position: absolute;
             right: -5.5rem;
             bottom: 0.4rem;
             white-space: nowrap;
         }
-
 
         body {
             font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', sans-serif;
@@ -66,7 +64,6 @@
             margin: 0;
             font-size: 1.4rem;
             padding-left: 0.1rem;
-            //border-left: 1px solid var(--black);
             height: 50px;
             display: flex;
             align-items: center;
@@ -94,6 +91,44 @@
             line-height: 1.8;
         }
 
+        .article-content {
+            margin-top: 2rem;
+            line-height: 1.8;
+        }
+
+        .nav-links {
+            margin-top: 2rem;
+        }
+
+        .nav-links a {
+            margin-right: 1rem;
+            color: var(--black);
+            text-decoration: none;
+            border-bottom: 1px solid var(--gray);
+        }
+
+        .nav-links a:hover {
+            border-bottom: 2px solid var(--black);
+        }
+
+        .article-date {
+            margin-top: 2rem;
+            font-style: italic;
+            color: var(--gray);
+            text-align: right;
+        }
+
+        .article-page .header {
+            margin-bottom: 1rem;
+        }
+        
+        .article-page .logo-container {
+            transform: scale(0.7);
+            transform-origin: left top;
+            margin-right: 1rem;
+        }
+
+
         @media (max-width: 768px) {
             .header {
                 flex-direction: column;
@@ -112,33 +147,31 @@
         }
     </style>
 </head>
-<body>
+<body class="article-page">
     <header class="header">
         <div class="logo-container">
             <span class="logo-label">huambda | 华华计算</span>
-            <span class="pronunciation">&nbsp&nbsp&nbsp&nbsp[ˈwɑːmdə]<br>it's huambda<br>, not lambda</span>
-
-            <img src="https://huambda.github.io/huambda_logo.png" alt="huambda logo" alt="logo" class="logo">
+            <span class="pronunciation">&nbsp;&nbsp;&nbsp;&nbsp;[ˈwɑːmdə]<br>it's huambda<br>, not lambda</span>
+            <img src="https://huambda.github.io/huambda_logo.png" alt="huambda logo" class="logo">
         </div>
     </header>
-    <div class="interests">
-        <div class="interest-section">
-            <!--div class="interest-title">兴趣领域</div-->
-            <div class="interest-content">
-                <p>I'm Hua. I’m drawn to symbols and calculations, and I’m curious about emotions and beauty.</p>
-                <p>我是华。我喜欢符号、计算，对情绪与美感到好奇。</p>
-
-<div class="interest-section" id="articles-section">
-<br><div class="interest-title">blog</div>
-<div class="interest-content">
-<p><a href="mosquito-nets-an-excellent-divide-and-conquer-strategy/en.html">Mosquito Nets: An Excellent "Divide and Conquer" Strategy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mosquito-nets-an-excellent-divide-and-conquer-strategy/zh.html">蚊帐：一种极佳的“分治法”</a></p>
-</div>
-</div>
-
-<p>huambda@gmail.com&nbsp&nbsp<a href='https://github.com/huambda'>github</a>&nbsp&nbsp<a href="https://x.com/huambda">x/twitter</a>&nbsp&nbsp<a href='https://mp.weixin.qq.com/s/6XsKmVdgqScG0d6qaZOvQA'>公众号</a></p>
-            </div>
-        </div>
-        
+    <div class="nav-links">
+        <a href="../index.html">主页</a>
+        <a href="en.html">English</a>
+    </div>
+    <div class="article-content">
+        <h1>蚊帐：一种极佳的“分治法”</h1>
+        <p>四月份，广州的蚊子活跃起来。</p>
+<p>白天把蚊帐洗了晾干，睡前搭起来，躺在床上时，我想到：蚊帐，是一种“分治法”。</p>
+<p>分治法是说：把难的大问题，分成容易的小问题，再逐个解决。</p>
+<p>蚊子难缠的地方，在于不时地骚扰你，你去打它，它又逃到天花板或者其它隐蔽角落了。</p>
+<p>简而言之，问题空间太大了，囊括了整个房间，不好处理。</p>
+<p>而蚊帐，则起到了划分问题空间的作用。</p>
+<p>将整个房间空间，一分为二：</p>
+<p>蚊帐外的空间，不需处理，解决难度为 0；</p>
+<p>蚊帐内的空间，人类的手基本可以碰到，而且蚊帐平直的平面让蚊子无法躲藏，即使有蚊子，解决难度也近乎于 0。</p>
+<p>这是一种极佳的空间分治法，所以，我可以安心睡觉了。</p>
+<div class="article-date">2025.04.09</div>
     </div>
 </body>
 </html>
