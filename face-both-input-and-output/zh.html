@@ -6,7 +6,7 @@
     <meta name="description" content="huambda | 华华计算 - Focused on symbols, computation, emotions and beauty">
     <meta name="keywords" content="huambda, 华华计算, symbols, computation, emotions, beauty, technology">
     <meta name="author" content="huambda">
-    <title>huambda | 华华计算</title>
+    <title>面容：既是输入，也是输出 - huambda | 华华计算</title>
     <link rel="icon" type="image/png" href="https://huambda.github.io/huambda_logo.ico">
     <style>
         :root {
@@ -15,15 +15,13 @@
             --gray: #666;
         }
         .pronunciation {
-            font-size: 0.7rem; 
-            //color: var(--light-gray);
+            font-size: 0.7rem;
             color: gray;
             position: absolute;
             right: -5.5rem;
             bottom: 0.4rem;
             white-space: nowrap;
         }
-
 
         body {
             font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', sans-serif;
@@ -66,7 +64,6 @@
             margin: 0;
             font-size: 1.4rem;
             padding-left: 0.1rem;
-            //border-left: 1px solid var(--black);
             height: 50px;
             display: flex;
             align-items: center;
@@ -94,6 +91,44 @@
             line-height: 1.8;
         }
 
+        .article-content {
+            margin-top: 2rem;
+            line-height: 1.8;
+        }
+
+        .nav-links {
+            margin-top: 2rem;
+        }
+
+        .nav-links a {
+            margin-right: 1rem;
+            color: var(--black);
+            text-decoration: none;
+            border-bottom: 1px solid var(--gray);
+        }
+
+        .nav-links a:hover {
+            border-bottom: 2px solid var(--black);
+        }
+
+        .article-date {
+            margin-top: 2rem;
+            font-style: italic;
+            color: var(--gray);
+            text-align: right;
+        }
+
+        .article-page .header {
+            margin-bottom: 1rem;
+        }
+        
+        .article-page .logo-container {
+            transform: scale(0.7);
+            transform-origin: left top;
+            margin-right: 1rem;
+        }
+
+
         @media (max-width: 768px) {
             .header {
                 flex-direction: column;
@@ -112,34 +147,40 @@
         }
     </style>
 </head>
-<body>
+<body class="article-page">
     <header class="header">
         <div class="logo-container">
             <span class="logo-label">huambda | 华华计算</span>
-            <span class="pronunciation">&nbsp&nbsp&nbsp&nbsp[ˈwɑːmdə]<br>it's huambda<br>, not lambda</span>
-
-            <img src="https://huambda.github.io/huambda_logo.png" alt="huambda logo" alt="logo" class="logo">
+            <span class="pronunciation">&nbsp;&nbsp;&nbsp;&nbsp;[ˈwɑːmdə]<br>it's huambda<br>, not lambda</span>
+            <img src="https://huambda.github.io/huambda_logo.png" alt="huambda logo" class="logo">
         </div>
     </header>
-    <div class="interests">
-        <div class="interest-section">
-            <!--div class="interest-title">兴趣领域</div-->
-            <div class="interest-content">
-                <p>I'm Hua. I’m drawn to symbols and calculations, and I’m curious about emotions and beauty.</p>
-                <p>我是华。我喜欢符号、计算，对情绪与美感到好奇。</p>
-
-<div class="interest-section" id="articles-section">
-<br><div class="interest-title">blog</div>
-<div class="interest-content">
-<p><a href="face-both-input-and-output/en.html">Face: Both Input and Output</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="face-both-input-and-output/zh.html">面容：既是输入，也是输出</a></p>
-<p><a href="mosquito-net-an-excellent-example-of-the-divide-and-conquer-method/en.html">Mosquito Net: An Excellent Example of the "Divide and Conquer" Method</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mosquito-net-an-excellent-example-of-the-divide-and-conquer-method/zh.html">蚊帐：一种极佳的“分治法”</a></p>
-<p><a href="mosquito-nets-an-excellent-divide-and-conquer-strategy/en.html">Mosquito Nets: An Excellent "Divide and Conquer" Strategy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mosquito-nets-an-excellent-divide-and-conquer-strategy/zh.html">蚊帐：一种极佳的“分治法”</a></p>
-</div>
-</div>
-
-<p>huambda@gmail.com<br><br><a href='https://github.com/huambda'><img src="https://huambda.github.io/github.svg" alt="GitHub" width="24" height="24"></a>&nbsp&nbsp<a href="https://x.com/huambda"><img src="https://huambda.github.io/x.svg" alt="GitHub" width="24" height="24"></a>&nbsp&nbsp<a href='https://mp.weixin.qq.com/s/6XsKmVdgqScG0d6qaZOvQA'><img src="https://huambda.github.io/wechat.svg" alt="GitHub" width="24" height="24"></a></p>
-            </div>
-        </div>
+    <div class="nav-links">
+        <a href="../index.html">主页</a>
+        <a href="en.html">English</a>
+    </div>
+    <div class="article-content">
+        <h1>面容：既是输入，也是输出</h1>
+        <p>人的眼、耳、鼻、嘴，可以输入信息和物质；同时，它们所组成的“面容”，是人的重要标识，还能输出喜怒哀乐的状态。</p>
+<p>为什么这些功能，不是分开的呢？</p>
+<p>比如说，一个人仍然通过五官输入，但别人通过看他的肚脐眼来辨认他是谁，并通过看他的脚趾判断他的情绪。为什么不这样？</p>
+<p>我并不了解生物和进化，不过，如果让我来设计，我的大致思考流程如下：</p>
+<p>--------------------------------</p>
+<p>1.1、在较高的部位，可更方便地输入。</p>
+<p>1.2、身体上较高的部位是有限的。</p>
+<p>1.3、由于1.1、1.2，输入集中于头上，集中处被称为面容。</p>
+<p>--------------------------------</p>
+<p>2.1、输入是为了观察，且是观察的基础</p>
+<p>2.2、我观察外界，外界也在观察我，同时，观察力重要且有限。</p>
+<p>2.3、由于2.1、2.2，外界会重点观察‘我的观察’——>观察‘我的输入’。</p>
+<p>--------------------------------</p>
+<p>3.1、当我输出信息时，希望能被观察到，从而提高输出成功率。</p>
+<p>3.2、由于2.3、3.1，信息输出部位，应靠近信息输入部位。</p>
+<p>--------------------------------</p>
+<p>4、由于1.3、3.2，头部的面容便同时负担了输入与输出的功能，并成为了观察乃至回忆的标识。</p>
+<p>--------------------------------</p>
+<p>这是一种相当自然的结果。</p>
+<div class="article-date">2025.05.21</div>
     </div>
 </body>
 </html>
